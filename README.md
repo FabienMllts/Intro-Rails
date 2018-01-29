@@ -7,6 +7,7 @@
 5. GET / POST
 6. Le concept de migration
 7. Les relations entre les models des BDD
+8. Les Fonctions du CRUD
 
 
 ### Différence entre un site statique et un site dynamique
@@ -110,7 +111,7 @@ POST : les données ne transiteront pas par l'URL, l'utilisateur ne les verra do
 <hr>
 
 Les migrations sont des classes Ruby créés pour simplifier la création et la modification de tables dans les BDD. Dans Rails on peut faire évoluer le schema de notre base de donnée facilement, sans faire de SQL. 
-On écrit une migration et celle-ci update notre BDD.
+On écrit une migration et celle-ci update notre BDD. Une bonne conception de la base de données passera forcément par une écriture correcte des migrations. Les migrations sont un outil puissant car elles permettent de gagner un temps fou lors de l'initialisation d'un projet Rails
 
 
 	Anatomie d'une migration :
@@ -156,8 +157,25 @@ Le modèle tient également compte des types de relations entre ces tables, nota
 
 <a href="https://openclassrooms.com/courses/faites-une-base-de-donnees-avec-uml/mettez-en-oeuvre-les-differents-types-de-relations-a-laide-des-cles-etrangeres#">OPC Suite</a>
 
+### Les fonctions du CRUD
+<hr>
+
+
+
+<p align="center">
+	Les fonctions du CRUD:
+
+- **C**reate, permet de créer un nouvel enregistrement, POST: /{resources}
+- **R**ead, permet d'afficher un ou plusieurs enregistrements, GET: /{resources} et GET: /{resources}/:id
+- **U**pdate, permet de mettre à jour un enregistrement, PUT: /{resources}/:id
+- **D**estroy, permet de supprimer un enregistrement, DELETE: /{resources}/:id
+</p>
+
+
 
 [logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/200px-Ruby_On_Rails_Logo.svg.png "Ruby On Rails"
+
+<hr>
 
 <p align="center">
 	<img src="https://cdn-images-1.medium.com/max/1200/1*iIiiKaJKg8k9aRU8iWxCxA.jpeg" alt="MVC" target="_blank">
