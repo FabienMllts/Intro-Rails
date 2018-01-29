@@ -41,8 +41,8 @@ Pour cette raison, les sites dynamiques sont beaucoup plus compliqués et coûte
 **Le contrôleur** fait le lien entre le modèle et la vue, il gère les requêtes des utilisateurs et détermine les traitements qui doivent être effectués pour chaque action. Il va utiliser les données du modèle, les traiter et les envoyer à la vue pour que celle-ci les affiche. C'est le cerveau.
 <a href="https://openclassrooms.com/courses/apprenez-a-programmer-en-java/mieux-structurer-son-code-le-pattern-mvc">Source</a>
 
-<p>
-	Cheminement d'une requête :
+
+	- Cheminement d'une requête :
 1. L’utilisateur envoie une requête HTTP (via le navigateur) vers le server Rails
 2. Le rooter la transmet au Controller via la méthode indexe
 3. Le contrôleur appelle le modèle, celui-ci va récupérer les données concernant cette requete
@@ -51,7 +51,7 @@ Pour cette raison, les sites dynamiques sont beaucoup plus compliqués et coûte
 6. Le contrôleur décide de la vue à afficher et va l’appeler au sein du View
 7. Le code HTML de la vue est envoyé au controleur 
 8. Le controlleur envoie la vue à afficher au navigateur
-</p>
+
 
 
 <p align="center">
