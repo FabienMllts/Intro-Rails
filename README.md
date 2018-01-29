@@ -8,7 +8,7 @@
 6. Le concept de migration
 7. Les relations entre les models des BDD
 
-<hr>
+
 ### Différence entre un site statique et un site dynamique
 <hr>
 
@@ -28,18 +28,18 @@ Pour cette raison, les sites dynamiques sont beaucoup plus compliqués et coûte
 	<img src="https://www.pluralsight.com/content/pluralsight/en/blog/creative-professional/sta/static-dynamic-websites-theres-difference/_jcr_content/main/hero_blog_block/image-res.img.jpg/1446605940972.jpg" target="_blank">
 </p>
 
-<hr>
+
 ### Le MVC
 <hr>
 <p>
-Ce *design pattern* est une solution reconnue permettant de séparer l’affichage des informations (la vue), les actions de l’utilisateur (le contrôleur) et l’accès aux données (le modèle).
+ Modèle-vue-contrôleur ou MVC est un motif d'architecture logicielle destiné aux interfaces graphiques lancé en 1978 et très populaire pour les applications web. Le motif est composé de trois types de modules ayant trois responsabilités différentes : les modèles, les vues et les contrôleurs.<a href="https://fr.wikipedia.org/wiki/Mod%C3%A8le-vue-contr%C3%B4leur">Wikipedia</a>
 
 **Le modèle** est ce que l’on appelle un objet, c’est le cœur de l’application. Il traite principalement les données et les interactions avec la base de données.
 
 **La vue** traite ce que nous voyons dans notre navigateur web, elle restitue le modèle au sein de notre interface web et permet à l’utilisateur d’interagir avec le modèle.
 
 **Le contrôleur** fait le lien entre le modèle et la vue, il gère les requêtes des utilisateurs et détermine les traitements qui doivent être effectués pour chaque action. Il va utiliser les données du modèle, les traiter et les envoyer à la vue pour que celle-ci les affiche.
-<a href="https://www.supinfo.com/articles/single/1625-mvc-presentation-patron-conception" target="_blank">Source</a>
+<a href="https://openclassrooms.com/courses/apprenez-a-programmer-en-java/mieux-structurer-son-code-le-pattern-mvc">Source</a>
 
 <p>
 
@@ -56,10 +56,10 @@ Ce *design pattern* est une solution reconnue permettant de séparer l’afficha
 
 
 <p align="center">
-	<img src="https://www.elephorm.com/system/files/imagecache/thumb_full_widescreen/formations/MASTER-SYMPHONY/vignettes/le-design-pattern-mvc.jpg" alt="MVC" target="_blank">
+	<img src="https://openclassrooms.com/courses/apprenez-a-programmer-en-java/mieux-structurer-son-code-le-pattern-mvc#/id/r-2185181" alt="MVC" target="_blank">
 </p>
 
-<hr>
+
 ### Les routes
 <hr>
 
@@ -99,7 +99,7 @@ En ligne de commande on peut afficher toutes les routes disponibles dans notre a
 
 <a href="https://openclassrooms.com/courses/continuez-avec-ruby-on-rails/simplifiez-la-configuration-de-vos-routes">OPC</a>
 
-<hr>
+
 ### Les Bases de Données
 <hr>
 
@@ -133,7 +133,7 @@ production:
 
 <a href="https://www.tutorialspoint.com/ruby-on-rails/rails-database-setup.htm">Rails DB setup</a>
 
-<hr>
+
 ### GET / POST
 <hr>
 
@@ -151,7 +151,7 @@ POST : les données ne transiteront pas par l'URL, l'utilisateur ne les verra do
 
 <a href="https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/transmettre-des-donnees-avec-les-formulaires">OPC</a>
 
-<hr>
+
 ### Le concept de migration
 <hr>
 
@@ -166,7 +166,7 @@ On écrit une migration et celle-ci update notre bdd.
 
 <a href="https://scotch.io/tutorials/understanding-migrations-in-rails">Rails Migrations Explained</a>
 
-<hr>
+
 ### Les relations entre les models des BDD
 <hr>
 
