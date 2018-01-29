@@ -27,7 +27,7 @@ Pour cette raison, les sites dynamiques sont beaucoup plus compliqués et coûte
 </div>
 
 <p align="center">
-	<img src="https://www.google.fr/search?biw=1012&bih=615&tbm=isch&sa=1&ei=mkRvWsrvGpKkwAK4_Za4Dw&q=diff%C3%A9rence+between+a+static+website+and+a+dynamic+website&oq=diff%C3%A9rence+between+a+static+website+and+a+dynamic+website&gs_l=psy-ab.3...31093.45863.0.46729.47.46.0.0.0.0.326.5104.16j15j4j2.37.0....0...1c.1.64.psy-ab..10.2.266...0j0i8i30k1j0i24k1.0.-vD_-Ym5FLQ#imgrc=zYdeDh1i4IdvbM:" target="_blank">
+	<img src="https://www.pluralsight.com/content/pluralsight/en/blog/creative-professional/sta/static-dynamic-websites-theres-difference/_jcr_content/main/hero_blog_block/image-res.img.jpg/1446605940972.jpg" target="_blank">
 </p>
 
 <hr>
