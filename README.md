@@ -18,9 +18,7 @@
 <div> 
 
 
-- Il existe un moyen simple de déterminer si un site est dynamique. Si vous pouvez interagir avec, c'est un site dynamique. Ainsi, la plupart des sites que vous visitez probablement sont des sites dynamiques, que ce soit Reddit, Twitter, Facebook. La façon dont vous pouvez interagir avec le site, et en cliquant simplement sur un lien dans le site ne compte pas, c'est plus comme commenter un article, créer un profil d'utilisateur ou faire une réservation.
-
-Les exemples de sites dynamiques sont les blogs, les sites de commerce électronique, les sites de calendrier ou de tâches, ou tout autre site qui doit être mis à jour fréquemment.
+- Il existe un moyen simple de déterminer si un site est dynamique. Si vous pouvez interagir avec, c'est un site dynamique. Ainsi, la plupart des sites que vous visitez probablement sont des sites dynamiques, que ce soit Reddit, Twitter, Facebook. La façon dont vous pouvez interagir avec le site, et en cliquant simplement sur un lien dans le site ne compte pas, c'est plus comme commenter un article, créer un profil d'utilisateur ou faire une réservation. Les exemples de sites dynamiques sont les blogs, les sites de commerce électronique, les sites de calendrier ou de tâches, ou tout autre site qui doit être mis à jour fréquemment.
 Pour cette raison, les sites dynamiques sont beaucoup plus compliqués et coûteux à créer. Non seulement l'hébergement Web est requis, mais des bases de données ou des serveurs doivent également être créés. Les langues utilisées pour créer des sites dynamiques sont également beaucoup plus compliquées que les langues côté client. (Ruby par exemple;))
 	<a href="https://www.pluralsight.com/blog/creative-professional/static-dynamic-websites-theres-difference" target="_blank">Pluralsight</a>
 
