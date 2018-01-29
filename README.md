@@ -153,9 +153,7 @@ Le modèle tient également compte des types de relations entre ces tables, nota
 </p>
 
 
-<a href="https://openclassrooms.com/courses/faites-une-base-de-donnees-avec-uml/comprendre-les-cles-primaires">OPC Clefs Primaires</a>
 
-<a href="https://openclassrooms.com/courses/faites-une-base-de-donnees-avec-uml/mettez-en-oeuvre-les-differents-types-de-relations-a-laide-des-cles-etrangeres#">OPC Suite</a>
 
 ### Les fonctions du CRUD
 <hr>
@@ -173,12 +171,12 @@ Le modèle tient également compte des types de relations entre ces tables, nota
 
 #### L'acronyme CRUD se réfère à la majorité des opérations implémentées dans les bases de données relationnelles. Chaque composante de l'acronyme peut être associé à un type de requête en SQL ainsi qu'à une méthode HTTP.
 
-	Par exemple, une application carnet d'adresse dont l'élément le plus simple est un contact, doit permettre à l'utilisateur de :
+Par exemple, une application carnet d'adresse dont l'élément le plus simple est un contact, doit permettre à l'utilisateur de :
 
-	- Créer des contacts
-	- Lire un contact (liste, zone de recherche…)
-	- Mettre à jour un contact
-	- Supprimer un contact
+- Créer des contacts
+- Lire un contact (liste, zone de recherche…)
+- Mettre à jour un contact
+- Supprimer un contact
 
 
 
