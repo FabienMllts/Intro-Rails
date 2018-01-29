@@ -171,7 +171,7 @@ Le modèle tient également compte des types de relations entre ces tables, nota
 - **D**estroy, permet de supprimer un enregistrement, DELETE: /{resources}/:id
 </p>
 
-######* L'acronyme CRUD se réfère à la majorité des opérations implémentées dans les bases de données relationnelles. Chaque composante de l'acronyme peut être associé à un type de requête en SQL ainsi qu'à une méthode HTTP.*
+# L'acronyme CRUD se réfère à la majorité des opérations implémentées dans les bases de données relationnelles. Chaque composante de l'acronyme peut être associé à un type de requête en SQL ainsi qu'à une méthode HTTP.*
 
 	Par exemple, une application carnet d'adresse dont l'élément le plus simple est un contact, doit permettre à l'utilisateur de :
 
