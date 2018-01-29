@@ -114,7 +114,7 @@ Les migrations sont des classes Ruby créés pour simplifier la création et la 
 On écrit une migration et celle-ci update notre BDD. Une bonne conception de la base de données passera forcément par une écriture correcte des migrations. Les migrations sont un outil puissant car elles permettent de gagner un temps fou lors de l'initialisation d'un projet Rails
 
 
-	Anatomie d'une migration :
+Anatomie d'une migration :
 
 	class CreateContacts <ActiveRecord::Migration
 	 def self.up
