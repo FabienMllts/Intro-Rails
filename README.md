@@ -75,33 +75,16 @@ La configuration se trouve dans le fichier config/routes.rb .
 ### Les Bases de Données
 <hr>
 
-Dans le fichier `config/database.yml` on constate que Rails utilise par default sqlite3, ceci est modifiable dès l' installation avec l' option `-d` ou `--database` `mysql, oracle, postgresql, sqlite3, frontbase, ibm_db, sqlserver, jdbcmysql, jdbcsqlite3, jdbcpostgresql, jdbc`
-
-On peut également configurer un base de donnée par environnement, development, test, production.
-
->Une base SQLite3 a la particularité d'être contenue dans un fichier qui porte le même nom.
-
-```
-default: &default
-  adapter: sqlite3
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  timeout: 5000
-
-development:
-  <<: *default
-  database: db/development.sqlite3
-test:
-  <<: *default
-  database: db/test.sqlite3
-production:
-  <<: *default
-  database: db/production.sqlite3
-  ```
-
-<p align="center">
-
-  <img src="https://ruudwijnands.files.wordpress.com/2014/03/database_yml_-_testproject_-____rubymineprojects_testproject_.png" alt="database" targer="_blank">
-  </p>
+Une base de données (database en anglais),
+permet de stocker et de retrouver l'intégralité de données brutes ou d'informations en rapport avec un thème ou une activité ;
+celles-ci peuvent être de natures différentes et plus ou moins reliées entre elles. Dans la très grande majorité des cas,
+ces informations sont très structurées, et la base est localisée dans un même lieu et sur un même support.
+Ce dernier est généralement informatisé.
+La base de données est au centre des dispositifs informatiques de collecte, mise en forme,
+stockage et utilisation d'informations. Le dispositif comporte un système de gestion de base de données (abréviation : SGBD):
+un logiciel moteur qui manipule la base de données et dirige l'accès à son contenu.
+De tels dispositifs — souvent appelés base de données — comportent également des logiciels applicatifs,
+et un ensemble de règles relatives à l'accès et l'utilisation des informations.
 
 <a href="https://www.tutorialspoint.com/ruby-on-rails/rails-database-setup.htm">Rails DB setup</a>
 
@@ -112,16 +95,15 @@ production:
 
 GET : les données transiteront par l'URL. Cette méthode est assez peu utilisée car on ne peut pas envoyer beaucoup d'informations dans l'URL.
 
->NEVER TRUST USER INPUT
 
 POST : les données ne transiteront pas par l'URL, l'utilisateur ne les verra donc pas passer dans la barre d'adresse. Cette méthode permet d'envoyer autant de données que l'on veut, ce qui fait qu'on la privilégie le plus souvent. Néanmoins, il faudra toujours vérifier si tous les paramètres sont bien présents et valides. 
 
 <p align="center">
-	<img src="http://www.java8s.com/img/get.PNG" alt="get-vs-post">
+	<img src="https://image.slidesharecdn.com/servletandjsp-160521134141/95/servlet-and-jsp-interview-questions-7-638.jpg?cb=1463844382">
 </p>
 
 
-<a href="https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/transmettre-des-donnees-avec-les-formulaires">OPC</a>
+<a href="https://openclassrooms.com/courses/concevez-votre-site-web-avec-php-et-mysql/transmettre-des-donnees-avec-les-formulaires">Open Clasrooms</a>
 
 
 ### Le concept de migration
@@ -159,3 +141,6 @@ Le modèle tient également compte des types de relations entre ces tables, nota
 
 [logo]: https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/200px-Ruby_On_Rails_Logo.svg.png "Ruby On Rails"
 
+<p align="center">
+	<img src="https://cdn-images-1.medium.com/max/1200/1*iIiiKaJKg8k9aRU8iWxCxA.jpeg" alt="MVC" target="_blank">
+</p>
