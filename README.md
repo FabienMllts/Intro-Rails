@@ -41,22 +41,10 @@ Pour cette raison, les sites dynamiques sont beaucoup plus compliqués et coûte
 **Le contrôleur** fait le lien entre le modèle et la vue, il gère les requêtes des utilisateurs et détermine les traitements qui doivent être effectués pour chaque action. Il va utiliser les données du modèle, les traiter et les envoyer à la vue pour que celle-ci les affiche.
 <a href="https://openclassrooms.com/courses/apprenez-a-programmer-en-java/mieux-structurer-son-code-le-pattern-mvc">Source</a>
 
-<p>
-
-1. L’utilisateur envoie une requête HTTP
-
-2. Le contrôleur appelle le modèle, celui-ci va récupérer les données
-
-3. Le modèle retourne les données au contrôleur
-
-4. Le contrôleur décide de la vue à afficher, va l’appeler
-
-5. Le code HTML de la vue est envoyé à l’utilisateur pour qu’il puisse naviguer normalement
-
 
 
 <p align="center">
-	<img src="https://openclassrooms.com/courses/apprenez-a-programmer-en-java/mieux-structurer-son-code-le-pattern-mvc#/id/r-2185181" alt="MVC" target="_blank">
+	<img src="https://user.oc-static.com/files/399001_400000/399354.png" alt="MVC" target="_blank">
 </p>
 
 
