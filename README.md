@@ -109,12 +109,29 @@ POST : les données ne transiteront pas par l'URL, l'utilisateur ne les verra do
 ### Le concept de migration
 <hr>
 
-Les migrations dans Rails nous permettent de faire évoluer le schema de notre base de donnée facilement, sans faire de SQL. 
-On écrit une migration et celle-ci update notre bdd.
+Les migrations sont des classes Ruby créés pour simplifier la création et la modification de tables dans les BDD. Dans Rails on peut faire évoluer le schema de notre base de donnée facilement, sans faire de SQL. 
+On écrit une migration et celle-ci update notre BDD.
 
-<p align="center">
-	<img src="https://leanpub.com/site_images/rails3dot0-astudentmanual/db-cheatsheet.png" alt="db-cheatsheet" traget="_blank">
+<p>
+	* Anatomie d'une migration :
+		class CreateContacts < ActiveRecord::Migration
+  	 def self.up
+  	  create_table :contacts do |t|
+   	    t.string :name
+   	 t.string :email
+
+   	  t.timestamps
+  	 end
+ 	 end
+
+   	def self.down
+   	drop_table :contacts
+   	end
+ 	end
 </p>
+
+<p>
+Cette migration ajoute une table « contacts », possédant deux colonnes « name » et « email » de type texte. La méthode « timestamps » quant à elle, ajoute des colonnes d'informations sur les dates de mises à jour des enregistrements. Nous détaillerons tout cela un peu plus tard.</p>
 
 <a href="http://edgeguides.rubyonrails.org/active_record_migrations.html">Doc Ruby Migrations</a>
 
