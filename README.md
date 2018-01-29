@@ -13,17 +13,17 @@
 <hr>
 
 
-Un site statique est le type de site Web le plus basique et le plus facile à créer. Il ne nécessite aucun traitement côté serveur, uniquement côté client. Les technologies côté client sont HTML, CSS et JavaScript. En termes plus simples, il ne nécessite aucune utilisation du "back end". Un site Web statique est livré à un utilisateur exactement comme il est stocké. Cela signifie que rien sur la page ne sera modifié par l'utilisateur ou même l'administrateur du site, sauf s'il y a une refonte du site ou si l'administrateur du site va directement dans le code pour le changer. Rien n'est stocké à part les pages réelles du site. Il n'y a pas d'utilisateurs, pas de commentaires, pas de billets de blog ou d'interactivité. Aucun langage de programmation n'est requis pour créer un site statique.
+- Un site statique est le type de site Web le plus basique et le plus facile à créer. Il ne nécessite aucun traitement côté serveur, uniquement côté client. Les technologies côté client sont HTML, CSS et JavaScript. En termes plus simples, il ne nécessite aucune utilisation du "back end". Un site Web statique est livré à un utilisateur exactement comme il est stocké. Cela signifie que rien sur la page ne sera modifié par l'utilisateur ou même l'administrateur du site, sauf s'il y a une refonte du site ou si l'administrateur du site va directement dans le code pour le changer. Rien n'est stocké à part les pages réelles du site. Il n'y a pas d'utilisateurs, pas de commentaires, pas de billets de blog ou d'interactivité. Aucun langage de programmation n'est requis pour créer un site statique.
 
 <div> 
-<p>
 
-Il existe un moyen simple de déterminer si un site est dynamique. Si vous pouvez interagir avec, c'est un site dynamique. Ainsi, la plupart des sites que vous visitez probablement sont des sites dynamiques, que ce soit Reddit, Twitter, Facebook. La façon dont vous pouvez interagir avec le site, et en cliquant simplement sur un lien dans le site ne compte pas, c'est plus comme commenter un article, créer un profil d'utilisateur ou faire une réservation.
+
+- Il existe un moyen simple de déterminer si un site est dynamique. Si vous pouvez interagir avec, c'est un site dynamique. Ainsi, la plupart des sites que vous visitez probablement sont des sites dynamiques, que ce soit Reddit, Twitter, Facebook. La façon dont vous pouvez interagir avec le site, et en cliquant simplement sur un lien dans le site ne compte pas, c'est plus comme commenter un article, créer un profil d'utilisateur ou faire une réservation.
 
 Les exemples de sites dynamiques sont les blogs, les sites de commerce électronique, les sites de calendrier ou de tâches, ou tout autre site qui doit être mis à jour fréquemment.
 Pour cette raison, les sites dynamiques sont beaucoup plus compliqués et coûteux à créer. Non seulement l'hébergement Web est requis, mais des bases de données ou des serveurs doivent également être créés. Les langues utilisées pour créer des sites dynamiques sont également beaucoup plus compliquées que les langues côté client. (Ruby par exemple;))
 	<a href="https://www.pluralsight.com/blog/creative-professional/static-dynamic-websites-theres-difference" target="_blank">Pluralsight</a>
-</p>
+
 </div>
 
 <p align="center">
