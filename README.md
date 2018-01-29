@@ -163,13 +163,22 @@ Le modèle tient également compte des types de relations entre ces tables, nota
 
 
 <p align="center">
-	Les fonctions du CRUD:
+	
 
 - **C**reate, permet de créer un nouvel enregistrement, POST: /{resources}
 - **R**ead, permet d'afficher un ou plusieurs enregistrements, GET: /{resources} et GET: /{resources}/:id
 - **U**pdate, permet de mettre à jour un enregistrement, PUT: /{resources}/:id
 - **D**estroy, permet de supprimer un enregistrement, DELETE: /{resources}/:id
 </p>
+
+- L'acronyme CRUD se réfère à la majorité des opérations implémentées dans les bases de données relationnelles. Chaque composante de l'acronyme peut être associé à un type de requête en SQL ainsi qu'à une méthode HTTP.
+
+	Par exemple, une application carnet d'adresse dont l'élément le plus simple est un contact, doit permettre à l'utilisateur de :
+
+	- Créer des contacts
+	- Lire un contact (liste, zone de recherche…)
+	- Mettre à jour un contact
+	- Supprimer un contact
 
 
 
