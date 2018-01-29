@@ -43,7 +43,7 @@ Pour cette raison, les sites dynamiques sont beaucoup plus compliqués et coûte
 <a href="https://openclassrooms.com/courses/apprenez-a-programmer-en-java/mieux-structurer-son-code-le-pattern-mvc">Source</a>
 
 
-	- Cheminement d'une requête :
+- Cheminement d'une requête :
 1. L’utilisateur envoie une requête HTTP (via le navigateur) vers le server Rails
 2. Le rooter la transmet au Controller via la méthode indexe
 3. Le contrôleur appelle le modèle, celui-ci va récupérer les données concernant cette requete
