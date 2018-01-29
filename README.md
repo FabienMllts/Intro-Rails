@@ -116,18 +116,18 @@ On écrit une migration et celle-ci update notre BDD.
 	Anatomie d'une migration :
 
 	class CreateContacts <ActiveRecord::Migration
-	def self.up
-	create_table :contacts do |t|
-	t.string :name
-	t.string :email
+	 def self.up
+	  create_table :contacts do |t|
+	    t.string :name
+	    t.string :email
 
-	t.timestamps
-	end
+	    t.timestamps
+	 end
 	end
 
 	def self.down
-	drop_table :contacts
-	end
+	 drop_table :contacts
+	 end
 	end
 
 
