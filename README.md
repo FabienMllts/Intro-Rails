@@ -1,4 +1,4 @@
-# Découvrir Ruby on Rails ![alt text][logo]
+# Découvrir :fire: Ruby on Rails :fire: ![alt text][logo]
 
 1. La différence entre un site statique et un site dynamique
 2. Le MVC
