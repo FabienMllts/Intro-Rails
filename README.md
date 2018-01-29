@@ -62,41 +62,14 @@ Pour cette raison, les sites dynamiques sont beaucoup plus compliqués et coûte
 ### Les routes
 <hr>
 
-Une route c'est une url ou unique ressource locator ex : `"/"` c'est la route qui est à la racine de notre application.
+Les routes permettent d’interpréter les URL et d’orienter vers les bonnes actions des controlleurs.
+La configuration se trouve dans le fichier config/routes.rb .
+*lien: intéressant:* [Routes](https://www.sois-net.fr/routes-ruby-on-rails/)
 
-Dans le framework Rails nos routes se trouve dans `config/routes.rb` => a requette HTTP, la route/url, le controlleur et l'action ex: `GET /articles(:id) articles#index` 
-
-Une route c' est un verbe qui représente la requette HTTP.
-
-Dans les contrôleurs, il existe sept routes très fréquemment utilisées :
-
->index, create, show, update, destroy, new, edit.
-
-On peu les ajouter manuellement dans le fichier config.rb ou  bien comme ceci : `resources :articles`
-
-En ligne de commande on peut afficher toutes les routes disponibles dans notre application comme ceci:
-
-`rails routes`
-
-`GET  /articles(.:format) articles#index`
-
-`POST  /articles(.:format) articles#create`
-
-`GET  /articles/new(.:format) articles#new`
-
-`GET  /articles/:id/edit(.:format) articles#edit`
-
-`GET  /articles/:id(.:format) articles#show`
-
-`PATCH  /articles/:id(.:format) articles#update`
-
-`PUT  /articles/:id(.:format) articles#update`
-
-`DELETE /articles/:id(.:format) articles#destroy`
 
 <a href="http://guides.rubyonrails.org/routing.html">Routing avec Rails DOC</a>
 
-<a href="https://openclassrooms.com/courses/continuez-avec-ruby-on-rails/simplifiez-la-configuration-de-vos-routes">OPC</a>
+<a href="https://openclassrooms.com/courses/continuez-avec-ruby-on-rails/simplifiez-la-configuration-de-vos-routes">Open Classrooms</a>
 
 
 ### Les Bases de Données
